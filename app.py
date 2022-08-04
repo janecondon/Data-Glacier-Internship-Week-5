@@ -20,7 +20,7 @@ def predict():
 
     output = prediction[0]
 
-    return render_template('index_1.html', prediction_text='Wine Quality should be  {}'.format(output))
+    return render_template('index_1.HTML', prediction_text='Wine Quality should be  {}'.format(output))
 
 if __name__ == "__main__":
     app.run(debug=False,use_reloader=False)
